@@ -1,0 +1,8 @@
+###
+GET http://localhost:5000/chats
+
+###
+POST http://localhost:5000/chat
+Content-Type: application/json
+
+  {"name": "Angga Adi", "message": "Selamat ya...", "created_at": "Sep 20, 10:00"}
